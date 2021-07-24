@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "rooms",
+  "collectionName": "villas",
   "info": {
-    "name": "room",
+    "name": "villa",
     "description": ""
   },
   "options": {
@@ -12,18 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "room_number": {
-      "type": "integer",
+    "name": {
+      "type": "string",
       "required": true
     },
     "isAvailable": {
       "type": "boolean",
-      "default": false,
-      "required": true
-    },
-    "hotel": {
-      "model": "hotel",
-      "via": "rooms"
+      "default": false
     },
     "photos": {
       "collection": "file",
@@ -36,6 +31,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "hotel": {
+      "model": "hotel",
+      "via": "villas"
     }
   }
 }

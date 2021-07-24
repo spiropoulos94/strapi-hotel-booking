@@ -22,6 +22,10 @@
     "rooms": {
       "via": "hotel",
       "collection": "room"
+    },
+    "villas": {
+      "via": "hotel",
+      "collection": "villa"
     }
   }
 }
