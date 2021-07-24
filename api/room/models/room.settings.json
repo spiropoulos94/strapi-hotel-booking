@@ -12,11 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
+    "room_number": {
+      "type": "integer",
+      "required": true
     },
-    "number": {
-      "type": "integer"
+    "isAvailable": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     },
     "hotel": {
       "model": "hotel"

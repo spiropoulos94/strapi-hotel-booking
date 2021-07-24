@@ -15,8 +15,9 @@
     "name": {
       "type": "string"
     },
-    "rooms": {
-      "collection": "room"
+    "categories": {
+      "via": "hotels",
+      "collection": "category"
     }
   }
 }
