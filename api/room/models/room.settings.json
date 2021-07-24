@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "rooms",
   "info": {
-    "name": "room"
+    "name": "room",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,6 +17,9 @@
     },
     "number": {
       "type": "integer"
+    },
+    "hotel": {
+      "model": "hotel"
     }
   }
 }
