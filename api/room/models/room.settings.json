@@ -38,8 +38,8 @@
       "pluginOptions": {}
     },
     "room_category": {
-      "model": "room-category",
-      "via": "rooms"
+      "via": "rooms",
+      "model": "room-category"
     },
     "price": {
       "type": "integer",
