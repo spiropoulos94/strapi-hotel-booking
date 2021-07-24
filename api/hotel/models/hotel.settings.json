@@ -18,6 +18,10 @@
     "categories": {
       "via": "hotels",
       "collection": "category"
+    },
+    "rooms": {
+      "via": "hotel",
+      "collection": "room"
     }
   }
 }
