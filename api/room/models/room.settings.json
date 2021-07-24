@@ -40,6 +40,10 @@
     "room_category": {
       "model": "room-category",
       "via": "rooms"
+    },
+    "price": {
+      "type": "integer",
+      "required": true
     }
   }
 }

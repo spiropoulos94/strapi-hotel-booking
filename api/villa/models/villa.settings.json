@@ -35,6 +35,12 @@
     "hotel": {
       "model": "hotel",
       "via": "villas"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
