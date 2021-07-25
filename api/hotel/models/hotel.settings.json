@@ -31,13 +31,13 @@
       "required": false,
       "pluginOptions": {}
     },
-    "villas": {
-      "collection": "villa",
-      "via": "hotels"
-    },
     "rooms": {
       "via": "hotel",
       "collection": "room"
+    },
+    "villa": {
+      "via": "hotel",
+      "collection": "villa"
     }
   }
 }

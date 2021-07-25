@@ -39,11 +39,8 @@
       "type": "richtext"
     },
     "hotel": {
-      "model": "hotel"
-    },
-    "hotels": {
-      "via": "villas",
-      "model": "hotel"
+      "model": "hotel",
+      "via": "villa"
     }
   }
 }
