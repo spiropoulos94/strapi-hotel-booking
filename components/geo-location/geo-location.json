@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_geo_location_geo_locations",
+  "info": {
+    "name": "geo_location",
+    "icon": "map-marker-alt"
+  },
+  "options": {},
+  "attributes": {
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    }
+  }
+}

@@ -38,6 +38,11 @@
     "villa": {
       "via": "hotel",
       "collection": "villa"
+    },
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geo-location.location"
     }
   }
 }
