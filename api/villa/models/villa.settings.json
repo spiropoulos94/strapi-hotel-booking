@@ -32,10 +32,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "hotel": {
-      "via": "villas",
-      "model": "hotel"
-    },
     "price": {
       "type": "integer"
     },

@@ -16,8 +16,9 @@
       "type": "string"
     },
     "rooms": {
-      "via": "room_category",
-      "collection": "room"
+      "via": "room_categories",
+      "collection": "room",
+      "dominant": true
     }
   }
 }

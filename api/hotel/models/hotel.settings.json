@@ -19,14 +19,6 @@
       "via": "hotels",
       "collection": "category"
     },
-    "rooms": {
-      "via": "hotel",
-      "collection": "room"
-    },
-    "villas": {
-      "via": "hotel",
-      "collection": "villa"
-    },
     "photos": {
       "collection": "file",
       "via": "related",
@@ -38,6 +30,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "rooms": {
+      "collection": "room"
+    },
+    "villas": {
+      "collection": "villa"
     }
   }
 }

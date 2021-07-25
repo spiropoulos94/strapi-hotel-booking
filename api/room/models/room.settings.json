@@ -21,10 +21,6 @@
       "default": false,
       "required": true
     },
-    "hotel": {
-      "via": "rooms",
-      "model": "hotel"
-    },
     "photos": {
       "collection": "file",
       "via": "related",
@@ -37,13 +33,16 @@
       "required": false,
       "pluginOptions": {}
     },
-    "room_category": {
-      "via": "rooms",
-      "model": "room-category"
-    },
     "price": {
       "type": "integer",
       "required": true
+    },
+    "room_categories": {
+      "via": "rooms",
+      "collection": "room-category"
+    },
+    "hotel": {
+      "model": "hotel"
     }
   }
 }
