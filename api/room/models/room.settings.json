@@ -42,6 +42,7 @@
       "collection": "room-category"
     },
     "hotel": {
+      "via": "rooms",
       "model": "hotel"
     }
   }

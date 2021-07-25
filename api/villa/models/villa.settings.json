@@ -40,6 +40,10 @@
     },
     "hotel": {
       "model": "hotel"
+    },
+    "hotels": {
+      "via": "villas",
+      "model": "hotel"
     }
   }
 }
