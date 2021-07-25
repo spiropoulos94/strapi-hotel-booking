@@ -41,6 +41,11 @@
     "hotel": {
       "via": "villa",
       "model": "hotel"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
     }
   }
 }

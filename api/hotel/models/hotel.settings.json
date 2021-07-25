@@ -43,6 +43,11 @@
       "type": "component",
       "repeatable": false,
       "component": "geo-location.location"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
     }
   }
 }
