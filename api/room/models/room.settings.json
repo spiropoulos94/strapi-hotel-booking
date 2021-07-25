@@ -22,8 +22,8 @@
       "required": true
     },
     "hotel": {
-      "model": "hotel",
-      "via": "rooms"
+      "via": "rooms",
+      "model": "hotel"
     },
     "photos": {
       "collection": "file",

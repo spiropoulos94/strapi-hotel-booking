@@ -33,8 +33,8 @@
       "pluginOptions": {}
     },
     "hotel": {
-      "model": "hotel",
-      "via": "villas"
+      "via": "villas",
+      "model": "hotel"
     },
     "price": {
       "type": "integer"

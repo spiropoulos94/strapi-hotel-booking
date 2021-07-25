@@ -16,8 +16,8 @@
       "type": "string"
     },
     "hotels": {
-      "collection": "hotel",
       "via": "categories",
+      "collection": "hotel",
       "dominant": true
     }
   }
