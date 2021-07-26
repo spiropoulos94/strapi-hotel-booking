@@ -38,14 +38,14 @@
     "description": {
       "type": "richtext"
     },
-    "hotel": {
-      "via": "villa",
-      "model": "hotel"
-    },
     "slug": {
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "hotel": {
+      "via": "villas",
+      "model": "hotel"
     }
   }
 }

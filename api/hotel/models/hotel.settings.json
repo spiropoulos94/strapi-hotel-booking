@@ -35,9 +35,9 @@
       "via": "hotel",
       "collection": "room"
     },
-    "villa": {
-      "via": "hotel",
-      "collection": "villa"
+    "villas": {
+      "collection": "villa",
+      "via": "hotel"
     },
     "location": {
       "type": "component",
