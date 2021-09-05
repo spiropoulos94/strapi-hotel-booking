@@ -47,6 +47,10 @@
     },
     "beds": {
       "type": "integer"
+    },
+    "guest": {
+      "via": "room",
+      "model": "guest"
     }
   }
 }
