@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "room_types",
+  "info": {
+    "name": "room-type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "roomsAvailable": {
+      "type": "integer"
+    },
+    "beds": {
+      "type": "integer"
+    },
+    "photos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

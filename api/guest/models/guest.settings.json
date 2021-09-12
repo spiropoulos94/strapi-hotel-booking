@@ -28,6 +28,9 @@
     "hotel": {
       "model": "hotel",
       "via": "guest"
+    },
+    "villa": {
+      "model": "villa"
     }
   }
 }
